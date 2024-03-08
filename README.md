@@ -7,9 +7,6 @@ This is a Spring Boot backend meant for [thisapp](https://github.com/Simonito/DW
 
 The project is for now just a simple api for database actions.
 ```mermaid
-    ---
-    title: Expense DB ER-Diagram
-    ---
     erDiagram
     USER ||--o{ EXPENSE : creates
     EXPENSE ||--|{ CATEGORY : is_of
